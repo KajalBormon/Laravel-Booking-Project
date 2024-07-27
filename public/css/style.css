@@ -1,0 +1,100 @@
+header {
+    background-color: #FF6868;
+    height: 100px;
+}
+
+header nav .navBar {
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 50px 0 20px;
+}
+
+.images img {
+    height: 80px;
+    width: 70px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-right: 0;
+    position: absolute;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    background-color: #FF6868;
+}
+
+
+/* .card {
+    height: 200px;
+    background-color: #FF6868;
+} */
+
+.card_div {
+    height: 200px;
+    background-color: #FF6868;
+}
+
+.card_div .sign h1 {
+    color: #ffff;
+}
+
+.card_div .sign i {
+    font-size: 50px;
+    color: white;
+}
+
+.card_div a {
+    text-decoration: none !important;
+}
+
+.card_div:hover {
+    background-color: #FFBB64;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.register-form {
+    width: 400px;
+    position: relative;
+    left: 40%;
+    background-color: #FF6868;
+    padding: 15px;
+}
+
+.register-form label {
+    color: white;
+}
+
+.card-header {
+    color: white;
+    font-size: 20px;
+}
+
+.heading {
+    display: inline;
+    margin-right: 50px;
+}
+
+.logout {
+    margin-top: -20px;
+}
+
+.dept .image img {
+    height: 250px;
+    width: 400px;
+}
